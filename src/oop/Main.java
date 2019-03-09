@@ -12,5 +12,7 @@ import oop.creatures.birds.Pinguin;
 public class Main {
     public static void main(String[] args) {
         Pinguin pinguin = new Pinguin();
+        pinguin.eat();
+        pinguin.toSwim();
     }
 }

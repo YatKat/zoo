@@ -1,9 +1,8 @@
 package oop.creatures.birds;
 
-import oop.creatures.Flyable;
 import oop.creatures.Swimable;
 
-public class Pinguin extends Birds implements Flyable, Swimable {
+public class Pinguin extends Birds implements Swimable {
 
     @Override
     public boolean isAlive() {
@@ -47,11 +46,6 @@ public class Pinguin extends Birds implements Flyable, Swimable {
 
     @Override
     public void doEgg() {
-
-    }
-
-    @Override
-    public void toFly() {
 
     }
 
